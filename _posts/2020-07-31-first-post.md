@@ -5,7 +5,6 @@ categories: dev_tool
 ---
 ## 개요
   - 윈도우10에서 VSCode와 우분투(Ubuntu) 개발환경을 설정하는 방법
-## 선행 사항
   - 기준 환경 : Windows 10 64bit 및 __WSL2__
 ## 가. 윈도우 최신버전 업데이트
   - 윈도우 설정 -> 업데이트 확인 -> 설치 -> (요구시) 재부팅 -> 반복
@@ -59,7 +58,6 @@ sudo sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list \
 sudo sed -i 's/security.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list \
 sudo apt-get update
 ```
-
 ## 바. WSL 원격 개발 환경 구동
   1. 선행 사항 완료 후 Windows terminal 로 WSL 쉘(Ubuntu) 접속
   2. workspace 디렉토리 생성하여 해당 위치로 이동
