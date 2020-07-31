@@ -8,9 +8,9 @@ categories: dev_tool
   - 기준 환경 : Windows 10 64bit 및 __WSL2__
 ## 가. 윈도우 최신버전 업데이트
   - 윈도우 설정 -> 업데이트 확인 -> 설치 -> (요구시) 재부팅 -> 반복
-    - 업데이트 더이상 안 뜰 때까지 __반복__
-    - 완료 시에도 Windows10 Version __2004__ 이상 버전이 아닐 경우 아래 사이트에서 수동 업데이트
-      - <https://www.microsoft.com/ko-kr/software-download/windows10>
+  - 업데이트 더이상 안 뜰 때까지 __반복__
+  - 완료 시에도 Windows10 Version __2004__ 이상 버전이 아닐 경우 아래 사이트에서 수동 업데이트
+  - <https://www.microsoft.com/ko-kr/software-download/windows10>
 ## 나. WSL2 및 docker for windows 설치
   - 아래 블로그 참조하여 nginx 설치 직전까지 진행
     - <https://www.44bits.io/ko/post/wsl2-install-and-basic-usage>
