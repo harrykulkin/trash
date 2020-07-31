@@ -9,18 +9,18 @@ categories: dev_tool
 ## 선행 사항
   - 기준 환경 : Windows 10 64bit 및 __WSL2__
     - 윈도우에서 리눅스 개발환경 세팅 가능
-### 가. 윈도우 최신버전 업데이트
+## 가. 윈도우 최신버전 업데이트
   - 윈도우 설정 -> 업데이트 확인 -> 설치 -> (요구시) 재부팅 -> 반복
     - 업데이트 더이상 안 뜰 때까지 __반복__
     - 완료 시에도 Windows10 Version __2004__ 이상 버전이 아닐 경우 아래 사이트에서 수동 업데이트
       - <https://www.microsoft.com/ko-kr/software-download/windows10>
-### 나. WSL2 및 docker for windows 설치
+## 나. WSL2 및 docker for windows 설치
   - 아래 블로그 참조하여 nginx 설치 직전까지 진행
     - <https://www.44bits.io/ko/post/wsl2-install-and-basic-usage>
     - 검증을 위해 nginx를 실습해봐도 좋다
     - docker run hello-world 로 검증하는 방법도 있음
     - WSL 세팅 중에 계정명을 물어보면 임의로 Windows 계정명과 동일하게 설정
-### 다. Windows Terminal 편의 설정
+## 다. Windows Terminal 편의 설정
   - 기본 탭 WSL로 변경
     - "defaultProfile" 값을 Ubuntu의 guid 값과 일치시켜준다
     - 프로파일 순서를 바꿔서 Ubuntu를 첫번째로 해주는 것도 편하다
@@ -50,10 +50,10 @@ categories: dev_tool
               "name": "Windows PowerShell",
               ...
 ```
-### 라. VS Code 설치 및 초기 설정
+## 라. VS Code 설치 및 초기 설정
   - <https://code.visualstudio.com/>
   - 좌측 extension 메뉴 -> remote development extension pack 검색 및 설치
-### 마. 지역 설정
+## 마. 지역 설정
   - 한국 로케일 설정 <https://beomi.github.io/2017/07/10/Ubuntu-Locale-to-ko_KR/>
   - 카카오 미러 설정
 ```
@@ -62,7 +62,7 @@ sudo sed -i 's/security.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list \
 sudo apt-get update
 ```
 
-### 바. WSL 원격 개발 환경 구동
+## 바. WSL 원격 개발 환경 구동
   1. 선행 사항 완료 후 Windows terminal 로 WSL 쉘(Ubuntu) 접속
   2. workspace 디렉토리 생성하여 해당 위치로 이동
     - ~/workspace 추천
