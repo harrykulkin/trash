@@ -3,7 +3,6 @@ title: "WSL2 (Windows Subsystem Linux 2) 환경에서 VSCode 사용하기"
 date: 2020-07-31 11:17:00 -0400
 categories: dev_tool
 ---
-# WSL2 (Windows Subsystem Linux 2) 환경에서 VSCode 사용하기
 ## 개요
 - 윈도우10에서 VSCode와 우분투(Ubuntu) 개발환경을 설정하는 방법
 
