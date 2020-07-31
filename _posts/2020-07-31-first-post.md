@@ -1,5 +1,5 @@
 ---
-title: "first posts"
+title: "첫 포스트"
 date: 2020-07-31 11:05:00 -0400
 categories: jekyll update
 ---
